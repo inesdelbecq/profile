@@ -1,0 +1,55 @@
+body {
+  background-color: #f4f6ff;
+  color: #10375c;
+  font-family: 'Mulish', sans-serif;
+  text-align: center;
+  font-weight: 400;
+}
+
+h1 {
+  color: #f3c623;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: #127681;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#wagon_link {
+  color:#127681;
+  font-family: 'Mulish', sans-serif;
+  font-style: italic;
+  font-weight: 700;
+}
+
+#photo_ines {
+  border-radius: 50%;
+}
+
+.social_media {
+  color: #E9B90C;
+  text-shadow: 0.5px;
+  font-size: 1em;
+  text-align: left;
+}
+
+#footer a:hover {
+  color:#10375C;
+}
+
+#footer{
+  list-style-type: none;
+  text-align: center;
+}
+
+#footer ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+#footer li {
+  display: inline-block;
+  padding: 7px;
+}
+
