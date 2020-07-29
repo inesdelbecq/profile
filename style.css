@@ -16,22 +16,40 @@ h2 {
   font-family: 'Montserrat', sans-serif;
 }
 
+h4 {
+  color: #127681;
+  font-family: 'Montserrat', sans-serif;
+  margin-block-start: 0.7em;
+  margin-block-end: 0.7em;
+  font-weight: 300;
+}
+
+h3 {
+  margin-block-start: 1.2em;
+  margin-block-end: 1.3em;
+}
+
 .card {
   background-color: #F9FAFF;
   margin: 20px 100px;
   box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
   border-radius: 10px;
   border-color: #f4f6ff;
-  padding:30px;
+  padding:20px;
   text-align: center;
   display:block;
+  line-height: 20px;
+}
+
+#content {
+  line-height: 1%;
 }
 
 .container {
   width: 700px;
   margin: 0 auto;
-
 }
+
 .social_media {
   color: #E9B90C;
   text-shadow: 0.5px;
@@ -64,4 +82,49 @@ h2 {
   padding-inline-start: 0px;
 }
 
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  #photo_ines {
+    width: 100px;
+  }
+
+  h3 {
+    font-size:0.9em;
+/*    margin-block-start: 1em;*/
+    margin-block-start: 1.2em;
+    margin-block-end: 1.2em;
+  }
+
+  h4 {
+    font-size:0.7em;
+    margin-block-start: 0.7em;
+    margin-block-end: 0.7em;
+  }
+
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  #photo_ines {
+    width: 50px;
+  }
+
+  .h4 {
+    font-size:0.4em;
+  }
+  .h3 {
+    font-size:0.4em;
+  }
+}
 
